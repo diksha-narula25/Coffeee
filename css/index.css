@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#navbar{
+    display: flex;
+    background-color: rgb(62 36 36);
+    color: white;
+    height: 120px;
+    z-index: -1;
+}
+div img{
+    padding: 0px;
+    height: 120px;
+    z-index: 0;
+}
+nav ul{
+    padding: 20px;
+    display: flex;
+    float: right;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+nav ul li a:hover{
+    color: black;
+    border: 2px solid black;
+    border-radius: 60px;
+    background-color: white;
+    text-decoration: underline;
+}
+
+body{
+    background: url("/img/background.jpg") center center no-repeat;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+#content h1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+#content p{
+    padding-top: 17px;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#box{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    /* border: 2px solid red; */
+    flex-direction: column;
+}
+.container img{
+    height: 120px;
+    width: 120px;
+    border-radius: 45px;
+}
+#both::before{
+    content: "";
+    background: url('/img/bg3.avif')no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+    top: 0%;
+    bottom: 0%;
+    height: 1170px;
+    width: 100%;
+}
+
+.container h2{
+    padding-top: 12px;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 350px;
+    padding: 20px;
+    color: white;
+    height: 50px;
+    background-color: rgb(62 36 36);
+}

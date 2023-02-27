@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    display: flex;
+    background-color: rgb(62 36 36);
+    color: white;
+    height: 120px;
+    z-index: -1;
+}
+#logo img{
+    padding: 0px;
+    height: 120px;
+    z-index: 0;
+}
+nav ul{
+    padding: 20px;
+    display: flex;
+    float: right;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    color: black;
+    border: 2px solid black;
+    border-radius: 60px;
+    background-color: white;
+    text-decoration: underline;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    height: 700px;
+    background: url("/img/sliderr2.avif") no-repeat center center/cover;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    opacity: 0.5;
+}
+
+h1{
+
+    padding-top: 34px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    font-family: 'Tilt Warp', cursive;
+}
+
+h2{
+    padding-left: 80px;
+    padding-bottom: 20px;
+    padding-top: 60px;
+    font-weight: 600px;
+    font-size: 35px;
+}
+
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    padding-left: 350px;
+    padding: 20px;
+    color: white;
+    height: 20px;
+    background-color: rgb(62 36 36);
+}
